@@ -1,0 +1,28 @@
+@import './variables';
+
+@mixin flex-center($direction) {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include flex-center(column);
+    height: 100vh;
+    // background-color: $cyan;
+}
+
+// img {
+//     height: 622px;
+// }
+
+.circle-top {
+    position: fixed;
+}
