@@ -12,17 +12,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    @include flex-center(column);
-    height: 100vh;
-    // background-color: $cyan;
-}
-
-// img {
-//     height: 622px;
-// }
-
-.circle-top {
-    position: fixed;
+    height:100vh;
 }
