@@ -8,3 +8,11 @@ $grey: hsl(0, 0%, 59%);
 $font-text:'Kumbh Sans', sans-serif;
 $font-400: 400;
 $font-700: 700;
+
+// Functions
+@mixin flex-center($direction) {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: $direction;
+}

@@ -1,0 +1,78 @@
+.card {
+    width: 326px;
+    height: 374px;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.container-top {
+    height: 140px;
+    width: 326px;
+    background-image: url(/images/bg-pattern-card.svg);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.user-photo {
+    position: absolute;
+    border-radius: 50%;
+    // top: 234px;
+    top: 30%;
+    // right: 135px;
+    border: 5px solid #FFFFFF;
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.5rem;
+    padding-bottom: 1.7rem;
+    border-bottom: 1px solid rgb(230, 227, 227);
+
+}
+
+.user-name-container {
+    display: flex;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: $font-700;
+    color: $dark-blue;
+}
+
+.age {
+    color: $grey;;
+    padding-left: 0.7rem;
+}
+
+.location {
+    font-size: 14px;
+    color: $grey;
+    margin-top: 0.5rem;
+}
+
+.stats {
+    @include flex-center(row);
+    justify-content: space-around; ////fix spacing around stats
+    padding: 1.5rem;
+}
+
+.metric-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-weight: $font-700;
+    color: $dark-blue;
+}
+
+.metric {
+    font-size: 10px;
+    font-weight: $font-400;
+    color: $grey;
+    letter-spacing: 0.1rem;
+    padding-top: 0.2rem;
+}

@@ -1,11 +1,5 @@
 @import './variables';
-
-@mixin flex-center($direction) {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: $direction;
-}
+@import './card';
 
 * {
     margin:0;
@@ -14,4 +8,11 @@
 }
 body {
     height:100vh;
+    @include flex-center(row);
+    font-family: $font-text;
+    font-size: 18px;
+    background-color: $cyan;
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    // background-position: ;
 }

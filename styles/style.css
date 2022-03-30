@@ -1,3 +1,82 @@
+.card {
+  width: 326px;
+  height: 374px;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.container-top {
+  height: 140px;
+  width: 326px;
+  background-image: url(/images/bg-pattern-card.svg);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.user-photo {
+  position: absolute;
+  border-radius: 50%;
+  top: 30%;
+  border: 5px solid #FFFFFF;
+}
+
+.container-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.5rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid #e6e3e3;
+}
+
+.user-name-container {
+  display: flex;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.age {
+  color: #969696;
+  padding-left: 0.7rem;
+}
+
+.location {
+  font-size: 14px;
+  color: #969696;
+  margin-top: 0.5rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.metric-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.metric {
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  letter-spacing: 0.1rem;
+  padding-top: 0.2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +85,13 @@
 
 body {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-color: #19a2ae;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
 }/*# sourceMappingURL=style.css.map */
