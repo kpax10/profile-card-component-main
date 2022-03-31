@@ -2,17 +2,18 @@
 @import './card';
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    height:100vh;
+    height: 100vh;
     @include flex-center(row);
     font-family: $font-text;
     font-size: 18px;
     background-color: $cyan;
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    // background-position: ;
+    background-position: right 50vw bottom 38vh, left 48vw top 51vh;
 }
