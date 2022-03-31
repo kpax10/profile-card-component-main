@@ -13,26 +13,26 @@
 }
 
 .user-photo {
-    position: absolute;
+    // position: absolute;
+    // top: 30%;
     border-radius: 50%;
-    // top: 234px;
-    top: 30%;
-    // right: 135px;
     border: 5px solid #FFFFFF;
+    margin-top: -2.6rem;
 }
 
 .container-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4.5rem;
-    padding-bottom: 1.7rem;
+    // margin-top: -2.6rem;
+    // padding-bottom: 1.7rem;
     border-bottom: 1px solid rgb(230, 227, 227);
 
 }
 
 .user-name-container {
     display: flex;
+    padding-top: .8rem;
 }
 
 .user-name {
@@ -42,20 +42,21 @@
 }
 
 .age {
-    color: $grey;;
+    color: $grey;
     padding-left: 0.7rem;
 }
 
 .location {
     font-size: 14px;
     color: $grey;
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1.2rem;
 }
 
 .stats {
     @include flex-center(row);
     justify-content: space-around; ////fix spacing around stats
-    padding: 1.5rem;
+    padding: 1.2rem 1.2rem 0 1.2rem;
 }
 
 .metric-container {

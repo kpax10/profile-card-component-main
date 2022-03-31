@@ -13,23 +13,21 @@
 }
 
 .user-photo {
-  position: absolute;
   border-radius: 50%;
-  top: 30%;
   border: 5px solid #FFFFFF;
+  margin-top: -2.6rem;
 }
 
 .container-bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4.5rem;
-  padding-bottom: 1.7rem;
   border-bottom: 1px solid #e6e3e3;
 }
 
 .user-name-container {
   display: flex;
+  padding-top: 0.8rem;
 }
 
 .user-name {
@@ -46,7 +44,8 @@
 .location {
   font-size: 14px;
   color: #969696;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .stats {
@@ -55,7 +54,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1.5rem;
+  padding: 1.2rem 1.2rem 0 1.2rem;
 }
 
 .metric-container {
